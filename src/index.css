@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+  letter-spacing:1.2px;
+  
+  
+}
+.counter {
+  background-image: url(./assets/images/image07.webp); /* Default for mobile */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  
+}
+
+/* Apply a different background for devices larger than mobile (e.g., 768px and up) */
+@media (min-width: 768px) {
+  .counter {
+    background-image: url(./assets/images/image06.png); /* Larger screens */
+  }
+}
