@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-around p-3 text-base shadow-black-200 shadow-lg fixed w-full bg-white top-0">
      
       <div className="flex items-center">
-        <p className='text-customBlue font-bold text-4xl'>Augmenta</p>
+        <p className='text-customBlue font-bold text-4xl'>unitar</p>
       </div>
 
     
