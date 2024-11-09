@@ -12,15 +12,19 @@ import image11 from '../assets/images/image11.webp';
 import image13 from '../assets/images/image13.png';
 import image12 from '../assets/images/image12.webp';
 import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import Newpage from '../components/newpge';
 
 
 
-
+function redirectToYouTube() {
+  window.location.href = "https://www.youtube.com";
+}
 const Home = () => {
 
   
   return (
     <div>
+      
       <Navbar />
 
       <div
@@ -234,7 +238,7 @@ const Home = () => {
         <p className='text-slate-500  mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores delectus officia debitis harum fugiat.</p>
         <button className='px-5 bg-white rounded-md py-3'>Start Free Trial</button>
       </div>
-
+      <Newpage/>
       <footer className="bg-gray-100 py-10 pb-0 text-center md:text-left">
       <div className="container mx-auto flex flex-col items-center space-y-6 text-sm pb-7">
         
