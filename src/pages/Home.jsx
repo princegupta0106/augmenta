@@ -8,6 +8,7 @@ import video3 from '../assets/images/video3.mp4';
 import image05 from '../assets/images/image05.jpg';
 import image09 from '../assets/images/image09.webp';
 import image10 from '../assets/images/image10.png';
+import image07 from '../assets/images/image07.webp';
 import image11 from '../assets/images/image11.webp';
 import image13 from '../assets/images/image13.png';
 import image12 from '../assets/images/image12.webp';
@@ -38,7 +39,7 @@ const Home = () => {
           <button className="rounded-md bg-customBlue block p-4 hover:text-gray-300 w-full text-white md:w-[200px] text-base ">Start your free trial</button>
         </div>
         <div className=' md:w-1/2 md:p-5'>
-          <video src={video1} className='rounded-3xl ' autoPlay loop muted>  </video>
+          <video poster={image07}  poster={image07}  src={video1} className='rounded-3xl ' autoPlay loop muted>  </video>
         </div>
 
       </div>
@@ -58,7 +59,7 @@ const Home = () => {
 
         <div className="classContainer flex flex-wrap w-full mb-[50px] gap-4 justify-center">
           <div className="card w-full sm:w-[45%] lg:w-[23%] rounded hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -68,7 +69,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%] rounded hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -78,7 +79,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%] rounded hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -88,7 +89,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%] rounded hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -147,7 +148,7 @@ const Home = () => {
 
         <div className="classContainer flex flex-wrap w-full mb-[50px] gap-4 justify-center">
           <div className="card w-full sm:w-[45%] lg:w-[23%] hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -157,7 +158,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%] hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -167,7 +168,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%]  hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -177,7 +178,7 @@ const Home = () => {
             </div>
 
             <div className="card w-full sm:w-[45%] lg:w-[23%]  hover:shadow-slate-300  h-[500px] flex flex-col items-center border-2 rounded-md hover:shadow-md pb-4">
-                <video src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
+                <video poster={image07}  src={video2} className='rounded-t-lg object-cover h-[400px] pb-4  '> </video>
                 <p className = "font-semibold pb-2">AR Business Cards</p>
                 <p className = "pb-4 ">AR Business Cards</p>
                 
@@ -196,7 +197,7 @@ const Home = () => {
       <div className='w-full bg-cover bg-center  pt-[50px] text-center px-[32px] flex flex-col items-center text-center' style={{ backgroundImage: `url(${image08})` }} >   
         <p className=' text-[28px] md:text-[35px] font-bold tracking-tight text-white mb-3'>Turn any image into an AR experience — no coding required</p>
         <p className='text-slate-500 mb-[30px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores delectus officia debitis harum fugiat.</p>
-        <video src={video3} className='rounded-xl w-full max-w-[450px] mb-20'></video>
+        <video autoPlay loop muted poster={image07}  src={video3} className='rounded-xl w-full max-w-[450px] mb-20'   ></video>
         <div className="flex flex-col md:flex-row justify-evenly  md:mx-[30%] w-full mb-10">
           <div className='flex flex-col items-center mb-3'>
             <img src={image10} alt=""  className = 'w-10 h-10 mb-4'/>
