@@ -10,7 +10,7 @@ function Newpage() {
         frameBorder="0"
         title="Microsoft Office Presentation"
       />
-      <a
+      {/* <a
         href="https://onedrive.live.com/view.aspx?resid=BD0738BECFD2C91F!587664&authkey=!AMT1ClpsJCkG7lw"
         target="_blank"
         rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function Newpage() {
           cursor: "pointer",
           textDecoration: "none",
         }}
-      ></a>
+      ></a> */}
     </div>
   );
 }
