@@ -1,13 +1,21 @@
-import React from 'react'
-import Layout from './components/layout/Layout'
-import Home from './pages/Home'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Game1 from './pages/Game1';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Home/>
-    </div>
-  )
+    <Router>
+      <div>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/game1" element={<Game1/>} />
+          
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

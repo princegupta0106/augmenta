@@ -39,7 +39,7 @@ const Home = () => {
           <button className="rounded-md bg-customBlue block p-4 hover:text-gray-300 w-full text-white md:w-[200px] text-base ">Start your free trial</button>
         </div>
         <div className=' md:w-1/2 md:p-5'>
-          <video poster={image07}  poster={image07}  src={video1} className='rounded-3xl ' autoPlay loop muted>  </video>
+          <video poster={image07}   src={video1} className='rounded-3xl ' autoPlay loop muted>  </video>
         </div>
 
       </div>
