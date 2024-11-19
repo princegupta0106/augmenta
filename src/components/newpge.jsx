@@ -5,9 +5,9 @@ import game1 from '../assets/images/game1.png';
 import game2 from '../assets/images/game2.png';
 function Newpage() {
   return (
-    <div className="flex flex-wrap justify-evenly bg-[#b23d29]">
-      <div className="relative outline-none border-none flex-grow min-w-[300px] max-w-[500px] ">
-        <img src={game1} alt="" class="h-[500px] w-full " />
+    <div className="flex flex-wrap justify-evenly bg-[#b23d29] gap-4">
+      <div className="relative outline-none border-none flex-grow min-w-[300px] max-w-[300px] md:max-w-[500px] ">
+        <img src={game1} alt="" class="h-[300px] md:h-[500px] w-full " />
       
       <Link
         to="/game1" // Use your internal route path here
@@ -23,8 +23,8 @@ function Newpage() {
         }}
       ></Link>
       </div>
-      <div className="relative outline-none border-none flex-grow min-w-[300px] max-w-[500px] ">
-        <img src={game2} alt="" class="h-[500px] w-full " />
+      <div className="relative outline-none border-none flex-grow min-w-[300px] max-w-[300px] md:max-w-[500px] ">
+        <img src={game2} alt="" class="h-[300px] md:h-[500px] w-full " />
       
       <Link
         to="/game2" // Use your internal route path here
