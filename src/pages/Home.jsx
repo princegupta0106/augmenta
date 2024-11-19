@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/images/image01.svg'; 
 import Navbar from '../components/navbar/Navbar';
 import image08 from '../assets/images/image08.webp';
@@ -14,13 +14,18 @@ import image13 from '../assets/images/image13.png';
 import image12 from '../assets/images/image12.webp';
 import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 import Newpage from '../components/newpge';
+import NewPage2 from '../components/NewPage2';
 
 
 
-function redirectToYouTube() {
-  window.location.href = "https://www.youtube.com";
-}
+
+
 const Home = () => {
+  const [showNewPage2, setShowNewPage2] = useState(false);
+
+  const handleClick = () => {
+    setShowNewPage2(true); // Change state to show NewPage2
+  };
 
   
   return (
@@ -239,7 +244,10 @@ const Home = () => {
         <p className='text-slate-500  mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores delectus officia debitis harum fugiat.</p>
         <button className='px-5 bg-white rounded-md py-3'>Start Free Trial</button>
       </div>
-      <Newpage/>
+      <div onClick={handleClick} >
+      {showNewPage2 ? <Newpage /> : <NewPage2 />}
+      </div>
+
       <footer className="bg-gray-100 py-10 pb-0 text-center md:text-left">
       <div className="container mx-auto flex flex-col items-center space-y-6 text-sm pb-7">
         
